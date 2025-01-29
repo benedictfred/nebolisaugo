@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  scroll-behavior: smooth;
+}
