@@ -2,7 +2,10 @@ import ContactLinks from "./ContactLinks";
 
 function Home() {
   return (
-    <section className="flex items-center justify-center h-screen px-16 ">
+    <section
+      id="home"
+      className="flex items-center justify-center px-16 min-h-screen"
+    >
       <div className="flex items-center">
         <div className="w-1/2 space-y-2">
           <p className="uppercase text-gray-600 tracking-wider">
