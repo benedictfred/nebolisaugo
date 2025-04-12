@@ -4,10 +4,10 @@ function Home() {
   return (
     <section
       id="home"
-      className="flex items-center justify-center px-16 min-h-screen"
+      className="flex items-center justify-center px-16 max-sm:py-10 min-h-screen"
     >
-      <div className="flex items-center">
-        <div className="w-1/2 space-y-2">
+      <div className="flex items-center flex-col-reverse md:flex-row">
+        <div className="max-sm:px-7 md:w-1/2 space-y-2">
           <p className="uppercase text-gray-600 tracking-wider">
             Hello, My Name is
           </p>
@@ -28,7 +28,7 @@ function Home() {
           <img
             src="/nebolisa.jpg"
             alt="Nebolisa's Image"
-            className="w-[400px] h-[400px] rounded-full object-cover object-top"
+            className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full object-cover object-top"
           />
         </div>
       </div>
