@@ -1,12 +1,5 @@
 import SkillsCard from "./SkillsCard";
-import {
-  FaCode,
-  FaGraduationCap,
-  CiHeart,
-  FiTarget,
-  FiBriefcase,
-  FiCoffee,
-} from "../utils/icons";
+import { FaCode, FiTarget } from "../utils/icons";
 
 function About() {
   return (
@@ -64,7 +57,7 @@ function About() {
           </div>
         </div>
 
-        <div className="space-y-6">
+        {/* <div className="space-y-6">
           <div className="flex items-center gap-3">
             <FiBriefcase className="w-6 h-6 text-blue-600" />
             <h3 className="text-xl font-semibold text-gray-800">
@@ -95,7 +88,7 @@ function About() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Skills and Tools */}
         <div className="space-y-6">
@@ -110,7 +103,7 @@ function About() {
           <SkillsCard />
         </div>
 
-        <div className="space-y-6">
+        {/* <div className="space-y-6">
           <div className="flex items-center gap-3 justify-center">
             <CiHeart className="w-6 h-6 text-blue-600" />
             <h3 className="text-xl font-semibold text-gray-800">
@@ -126,7 +119,7 @@ function About() {
               work.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

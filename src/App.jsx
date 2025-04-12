@@ -45,7 +45,7 @@ function App() {
   }, []);
 
   return (
-    <main>
+    <>
       <Navbar
         sections={sections}
         activeSection={activeSection}
@@ -55,7 +55,7 @@ function App() {
       <About />
       <Projects />
       <Footer onScroll={handleScroll} />
-    </main>
+    </>
   );
 }
 
