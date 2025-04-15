@@ -30,7 +30,6 @@ function App() {
         const visibleSection = entries.find((entry) => entry.isIntersecting);
         if (visibleSection) {
           setActiveSection(visibleSection.target.id);
-          console.log(visibleSection.target.id);
         }
       },
       { threshold: 0.4 }

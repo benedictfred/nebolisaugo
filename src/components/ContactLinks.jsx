@@ -11,7 +11,7 @@ function ContactLinks() {
         <FaGithub size={25} />
       </a>
       <a
-        href="https://www.linkedin.com/in/ugochukwu-nebolisa-a818b6252"
+        href="https://www.linkedin.com/in/ugochukwu-nebolisa"
         target="_blank"
         rel="noreferrer noopener"
       >
