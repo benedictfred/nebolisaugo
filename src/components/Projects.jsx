@@ -8,7 +8,7 @@ function Projects() {
     >
       <div className="h-full flex flex-col items-center justify-center">
         <h1 className="text-3xl font-bold">My Projects</h1>
-        <p className="text-xl text-gray-600 mt-5">
+        <p className="text-xl text-gray-600 mt-5 text-center">
           Here are some of my amazing works both personal and collaborations
         </p>
         <ProjectCard />

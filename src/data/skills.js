@@ -39,4 +39,24 @@ export const skills = [
     skillImg: "/svgs/git-logo.svg",
     skillName: "Git",
   },
+  {
+    id: 9,
+    skillImg: "/svgs/express-logo.svg",
+    skillName: "Express.js",
+  },
+  {
+    id: 10,
+    skillImg: "/svgs/nestjs-logo.svg",
+    skillName: "Nest.js",
+  },
+  {
+    id: 11,
+    skillImg: "/svgs/postgresql-logo.svg",
+    skillName: "PostgreSQL",
+  },
+  {
+    id: 12,
+    skillImg: "/svgs/mongodb-logo.svg",
+    skillName: "MongoDB",
+  },
 ];

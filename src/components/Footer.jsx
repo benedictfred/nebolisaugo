@@ -10,10 +10,8 @@ import {
 function Footer({ onScroll }) {
   return (
     <footer className="bg-gray-900 text-gray-300">
-      {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Contact Information */}
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Get in Touch</h3>
             <div className="space-y-3">
@@ -73,7 +71,7 @@ function Footer({ onScroll }) {
                 <FaGithub className="w-6 h-6" />
               </a>
               <a
-                href="https://www.linkedin.com/in/ugochukwu-nebolisa-a818b6302"
+                href="https://www.linkedin.com/in/ugochukwu-nebolisa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors"
@@ -98,7 +96,8 @@ function Footer({ onScroll }) {
 
         <div className="mt-12 pt-8 border-t border-gray-800">
           <p className="text-sm text-center">
-            &copy; {new Date().getFullYear()} Nebolisa. All rights reserved.
+            &copy; 2025 - {new Date().getFullYear()} Nebolisa. All rights
+            reserved.
           </p>
         </div>
       </div>

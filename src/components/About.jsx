@@ -11,18 +11,16 @@ function About() {
           </h2>
           <div className="prose prose-lg text-gray-600 space-y-4">
             <p className="text-lg leading-relaxed">
-              Hi there! 👋 {"I'm"} a skilled and versatile web developer with a
-              knack for crafting user-friendly and visually appealing digital
-              experiences. With a strong focus on frontend development, I
-              specialize in creating responsive and interactive web applications
-              using modern frontend tools.
+              Hi there! {"I'm"} a software engineer who enjoys building web
+              applications end-to-end. From designing intuitive interfaces to
+              architecting APIs and managing databases, I work across the full
+              stack to deliver complete solutions.
             </p>
             <p className="text-lg leading-relaxed">
-              When {"I'm"} not coding, {"you'll"} find me exploring innovative
-              ideas, tackling challenges in hackathons, or sharing knowledge
-              with the developer community. I thrive on learning new
-              technologies and pushing boundaries to bring ideas to life. Come{" "}
-              {"let's"} build something amazing together! 🚀
+              When {"I'm"} not coding, {"you'll"} find me exploring new
+              technologies, contributing to collaborative projects, or sharing
+              knowledge with the developer community. {"I'm"} always looking for
+              interesting problems to solve—{"let's"} build something together!
             </p>
           </div>
         </div>
@@ -34,10 +32,10 @@ function About() {
               <h3 className="text-xl font-semibold text-gray-800">What I Do</h3>
             </div>
             <ul className="space-y-2 text-gray-600">
-              <li>✓ Build responsive and performant web applications</li>
-              <li>✓ Create intuitive user interfaces and experiences</li>
-              <li>✓ Optimize applications for maximum speed</li>
-              <li>✓ Implement modern frontend architectures</li>
+              <li>✓ Build full-stack web applications</li>
+              <li>✓ Design and integrate RESTful APIs</li>
+              <li>✓ Create intuitive user interfaces</li>
+              <li>✓ Work with SQL and NoSQL databases</li>
             </ul>
           </div>
 
@@ -90,15 +88,13 @@ function About() {
           </div>
         </div> */}
 
-        {/* Skills and Tools */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-gray-900 uppercase text-center">
             Skills and Tools
           </h2>
           <p className="text-lg text-gray-600 text-center max-w-2xl mx-auto">
-            With a strong foundation in frontend development, I specialize in
-            building modern, responsive web applications using a variety of
-            tools and technologies.
+            The tools and technologies I use to build modern, scalable web
+            applications from frontend to backend.
           </p>
           <SkillsCard />
         </div>
