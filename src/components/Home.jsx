@@ -23,11 +23,11 @@ function Home() {
           </p>
           <ContactLinks />
         </div>
-        <div className="rounded-full min-w-[300px] min-h-[300px] flex items-center justify-center md:ml-4">
+        <div className="rounded-full min-w-75 min-h-75 flex items-center justify-center md:ml-4">
           <img
-            src="/nebolisa.jpg"
+            src="/nebolisa.webp"
             alt="Nebolisa's Image"
-            className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full object-cover object-top"
+            className="w-75 h-75 md:w-100 md:h-100 rounded-full object-cover object-top"
           />
         </div>
       </div>

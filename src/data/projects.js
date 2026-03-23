@@ -12,7 +12,7 @@ export const projects = [
       "TailwindCSS",
       "React Js",
       "Express Js",
-      "MongoDb",
+      "PostgreSQL",
     ],
   },
   {
